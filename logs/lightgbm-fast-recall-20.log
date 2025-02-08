@@ -1,0 +1,92 @@
+17.4s 1 [LightGBM] [Info] Total groups: 25000, total data: 1000000
+17.4s 2 [LightGBM] [Warning] Auto-choosing row-wise multi-threading, the overhead of testing was 0.030374 seconds.
+17.4s 3 You can set `force_row_wise=true` to remove the overhead.
+17.4s 4 And if memory is not enough, you can set `force_col_wise=true`.
+17.4s 5 [LightGBM] [Info] Total Bins 2550
+17.4s 6 [LightGBM] [Info] Number of data points in the train set: 1000000, number of used features: 10
+17.9s 7 [LightGBM] [Info] Total groups: 25000, total data: 1000000
+18.6s 8 [5]	valid_0's map@20: 0.309931
+19.4s 9 [10]	valid_0's map@20: 0.309744
+20.1s 10 [15]	valid_0's map@20: 0.310568
+20.9s 11 [20]	valid_0's map@20: 0.310614
+21.8s 12 [25]	valid_0's map@20: 0.310793
+22.5s 13 [30]	valid_0's map@20: 0.31063
+23.3s 14 [35]	valid_0's map@20: 0.310951
+24.1s 15 [40]	valid_0's map@20: 0.311052
+24.9s 16 [45]	valid_0's map@20: 0.311436
+25.6s 17 [50]	valid_0's map@20: 0.311395
+26.3s 18 [55]	valid_0's map@20: 0.311441
+27.0s 19 [60]	valid_0's map@20: 0.311342
+27.8s 20 [65]	valid_0's map@20: 0.311036
+28.5s 21 [70]	valid_0's map@20: 0.311039
+29.3s 22 [75]	valid_0's map@20: 0.311096
+30.0s 23 [80]	valid_0's map@20: 0.31103
+30.7s 24 [85]	valid_0's map@20: 0.311095
+31.5s 25 [90]	valid_0's map@20: 0.311082
+32.2s 26 [95]	valid_0's map@20: 0.311256
+32.7s 27 [100]	valid_0's map@20: 0.311137
+32.7s 28 CPU times: user 1min 2s, sys: 186 ms, total: 1min 2s
+32.7s 29 Wall time: 16.1 s
+32.9s 30 [LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.087870 seconds.
+32.9s 31 You can set `force_col_wise=true` to remove the overhead.
+32.9s 32 [LightGBM] [Info] Total Bins 2550
+32.9s 33 [LightGBM] [Info] Number of data points in the train set: 1000000, number of used features: 10
+36.8s 34 [5]	valid_0's recall@20: 0.530979
+40.9s 35 [10]	valid_0's recall@20: 0.530791
+44.6s 36 [15]	valid_0's recall@20: 0.531601
+48.4s 37 [20]	valid_0's recall@20: 0.531058
+52.1s 38 [25]	valid_0's recall@20: 0.531554
+55.9s 39 [30]	valid_0's recall@20: 0.531634
+59.7s 40 [35]	valid_0's recall@20: 0.531831
+63.5s 41 [40]	valid_0's recall@20: 0.531879
+67.3s 42 [45]	valid_0's recall@20: 0.532626
+71.3s 43 [50]	valid_0's recall@20: 0.532562
+75.0s 44 [55]	valid_0's recall@20: 0.53237
+78.7s 45 [60]	valid_0's recall@20: 0.532311
+82.6s 46 [65]	valid_0's recall@20: 0.532034
+86.4s 47 [70]	valid_0's recall@20: 0.53182
+90.2s 48 [75]	valid_0's recall@20: 0.532
+93.9s 49 [80]	valid_0's recall@20: 0.531886
+97.6s 50 [85]	valid_0's recall@20: 0.531904
+101.4s 51 [90]	valid_0's recall@20: 0.532012
+105.6s 52 [95]	valid_0's recall@20: 0.532199
+109.3s 53 [100]	valid_0's recall@20: 0.532145
+109.3s 54 CPU times: user 2min 9s, sys: 185 ms, total: 2min 10s
+109.3s 55 Wall time: 1min 16s
+112.1s 56 CPU times: user 2.62 s, sys: 48.9 ms, total: 2.66 s
+112.1s 57 Wall time: 2.77 s
+112.3s 58 [LightGBM] [Warning] Auto-choosing row-wise multi-threading, the overhead of testing was 0.028234 seconds.
+112.3s 59 You can set `force_row_wise=true` to remove the overhead.
+112.3s 60 And if memory is not enough, you can set `force_col_wise=true`.
+112.3s 61 [LightGBM] [Info] Total Bins 2550
+112.3s 62 [LightGBM] [Info] Number of data points in the train set: 1000000, number of used features: 10
+113.5s 63 [5]	valid_0's numba_recall@20: 0.531244
+114.6s 64 [10]	valid_0's numba_recall@20: 0.531038
+115.7s 65 [15]	valid_0's numba_recall@20: 0.531525
+116.8s 66 [20]	valid_0's numba_recall@20: 0.531325
+117.9s 67 [25]	valid_0's numba_recall@20: 0.531482
+119.0s 68 [30]	valid_0's numba_recall@20: 0.53157
+120.1s 69 [35]	valid_0's numba_recall@20: 0.531777
+121.2s 70 [40]	valid_0's numba_recall@20: 0.531902
+122.3s 71 [45]	valid_0's numba_recall@20: 0.532458
+123.4s 72 [50]	valid_0's numba_recall@20: 0.532392
+124.5s 73 [55]	valid_0's numba_recall@20: 0.532458
+125.5s 74 [60]	valid_0's numba_recall@20: 0.532389
+126.6s 75 [65]	valid_0's numba_recall@20: 0.532022
+127.7s 76 [70]	valid_0's numba_recall@20: 0.531752
+128.8s 77 [75]	valid_0's numba_recall@20: 0.531928
+129.9s 78 [80]	valid_0's numba_recall@20: 0.531928
+130.9s 79 [85]	valid_0's numba_recall@20: 0.53202
+132.0s 80 [90]	valid_0's numba_recall@20: 0.532034
+133.8s 81 [95]	valid_0's numba_recall@20: 0.532137
+134.7s 82 [100]	valid_0's numba_recall@20: 0.5321
+134.7s 83 CPU times: user 1min 15s, sys: 87.5 ms, total: 1min 15s
+134.7s 84 Wall time: 22.6 s
+139.2s 85 /opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2758: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+139.2s 86 FutureWarning,
+139.2s 87 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+139.5s 88 [NbConvertApp] Writing 22656 bytes to __notebook__.ipynb
+142.5s 89 /opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2758: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+142.5s 90 FutureWarning,
+142.5s 91 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+143.4s 92 [NbConvertApp] Writing 305003 bytes to __results__.html
